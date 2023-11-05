@@ -10,7 +10,7 @@ const rollBtn = document.querySelector('#roll-btn');
 let renderer, scene, camera, diceMesh, physicsWorld;
 
 const params = {
-    numberOfDice: 2,
+    numberOfDice: 5,
     segments: 40,
     edgeRadius: .07,
     notchRadius: .12,
